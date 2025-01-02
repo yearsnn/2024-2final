@@ -392,7 +392,7 @@ document.getElementById('effectbtn').addEventListener('click', function() {
 function initThreeJS() {
     scene = new THREE.Scene();
     camera = new THREE.PerspectiveCamera(80, window.innerWidth / window.innerHeight, 0.05, 1000);
-    camera.position.z = 600;
+    camera.position.z = 550;
 
     renderer = new THREE.WebGLRenderer();
     renderer.setSize(window.innerWidth, window.innerHeight);
